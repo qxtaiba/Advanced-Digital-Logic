@@ -1,0 +1,175 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml ALU_display.twx ALU_display.ncd -o ALU_display.twr
+ALU_display.pcf -ucf display.ucf
+
+Design file:              ALU_display.ncd
+Physical constraint file: ALU_display.pcf
+Device,package,speed:     xc3s100e,cp132,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+PO_an<0>    |    9.812(R)|clk_BUFGP         |   0.000|
+PO_an<1>    |    9.752(R)|clk_BUFGP         |   0.000|
+PO_an<2>    |   10.304(R)|clk_BUFGP         |   0.000|
+PO_an<3>    |    9.399(R)|clk_BUFGP         |   0.000|
+PO_seg<0>   |   12.800(R)|clk_BUFGP         |   0.000|
+PO_seg<1>   |   13.241(R)|clk_BUFGP         |   0.000|
+PO_seg<2>   |   13.549(R)|clk_BUFGP         |   0.000|
+PO_seg<3>   |   12.355(R)|clk_BUFGP         |   0.000|
+PO_seg<4>   |   12.520(R)|clk_BUFGP         |   0.000|
+PO_seg<5>   |   12.896(R)|clk_BUFGP         |   0.000|
+PO_seg<6>   |   12.624(R)|clk_BUFGP         |   0.000|
+PO_seg<7>   |   10.483(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.184|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+PI_a<0>        |PO_seg<0>      |   14.255|
+PI_a<0>        |PO_seg<1>      |   14.696|
+PI_a<0>        |PO_seg<2>      |   15.004|
+PI_a<0>        |PO_seg<3>      |   13.810|
+PI_a<0>        |PO_seg<4>      |   13.975|
+PI_a<0>        |PO_seg<5>      |   14.351|
+PI_a<0>        |PO_seg<6>      |   14.079|
+PI_a<0>        |PO_seg<7>      |   12.626|
+PI_a<1>        |PO_seg<0>      |   14.201|
+PI_a<1>        |PO_seg<1>      |   14.460|
+PI_a<1>        |PO_seg<2>      |   14.761|
+PI_a<1>        |PO_seg<3>      |   13.908|
+PI_a<1>        |PO_seg<4>      |   13.750|
+PI_a<1>        |PO_seg<5>      |   14.272|
+PI_a<1>        |PO_seg<6>      |   14.177|
+PI_a<1>        |PO_seg<7>      |   13.328|
+PI_a<2>        |PO_seg<0>      |   14.451|
+PI_a<2>        |PO_seg<1>      |   14.892|
+PI_a<2>        |PO_seg<2>      |   15.200|
+PI_a<2>        |PO_seg<3>      |   14.006|
+PI_a<2>        |PO_seg<4>      |   14.171|
+PI_a<2>        |PO_seg<5>      |   14.547|
+PI_a<2>        |PO_seg<6>      |   14.275|
+PI_a<2>        |PO_seg<7>      |   12.513|
+PI_a<3>        |PO_seg<0>      |   14.540|
+PI_a<3>        |PO_seg<1>      |   14.981|
+PI_a<3>        |PO_seg<2>      |   15.289|
+PI_a<3>        |PO_seg<3>      |   14.095|
+PI_a<3>        |PO_seg<4>      |   14.260|
+PI_a<3>        |PO_seg<5>      |   14.636|
+PI_a<3>        |PO_seg<6>      |   14.364|
+PI_a<3>        |PO_seg<7>      |   13.205|
+PI_b<0>        |PO_seg<0>      |   15.737|
+PI_b<0>        |PO_seg<1>      |   16.178|
+PI_b<0>        |PO_seg<2>      |   16.486|
+PI_b<0>        |PO_seg<3>      |   15.292|
+PI_b<0>        |PO_seg<4>      |   15.457|
+PI_b<0>        |PO_seg<5>      |   15.833|
+PI_b<0>        |PO_seg<6>      |   15.561|
+PI_b<0>        |PO_seg<7>      |   14.187|
+PI_b<1>        |PO_seg<0>      |   16.567|
+PI_b<1>        |PO_seg<1>      |   17.008|
+PI_b<1>        |PO_seg<2>      |   17.316|
+PI_b<1>        |PO_seg<3>      |   16.358|
+PI_b<1>        |PO_seg<4>      |   16.287|
+PI_b<1>        |PO_seg<5>      |   16.663|
+PI_b<1>        |PO_seg<6>      |   16.627|
+PI_b<1>        |PO_seg<7>      |   14.721|
+PI_b<2>        |PO_seg<0>      |   15.455|
+PI_b<2>        |PO_seg<1>      |   15.896|
+PI_b<2>        |PO_seg<2>      |   16.204|
+PI_b<2>        |PO_seg<3>      |   15.010|
+PI_b<2>        |PO_seg<4>      |   15.175|
+PI_b<2>        |PO_seg<5>      |   15.551|
+PI_b<2>        |PO_seg<6>      |   15.279|
+PI_b<2>        |PO_seg<7>      |   12.915|
+PI_b<3>        |PO_seg<0>      |   16.404|
+PI_b<3>        |PO_seg<1>      |   16.845|
+PI_b<3>        |PO_seg<2>      |   17.153|
+PI_b<3>        |PO_seg<3>      |   15.959|
+PI_b<3>        |PO_seg<4>      |   16.124|
+PI_b<3>        |PO_seg<5>      |   16.500|
+PI_b<3>        |PO_seg<6>      |   16.228|
+PI_b<3>        |PO_seg<7>      |   13.864|
+PI_sel<0>      |PO_seg<0>      |   15.376|
+PI_sel<0>      |PO_seg<1>      |   15.635|
+PI_sel<0>      |PO_seg<2>      |   15.936|
+PI_sel<0>      |PO_seg<3>      |   13.927|
+PI_sel<0>      |PO_seg<4>      |   14.092|
+PI_sel<0>      |PO_seg<5>      |   15.447|
+PI_sel<0>      |PO_seg<6>      |   15.186|
+PI_sel<0>      |PO_seg<7>      |   14.503|
+PI_sel<1>      |PO_seg<0>      |   15.035|
+PI_sel<1>      |PO_seg<1>      |   15.294|
+PI_sel<1>      |PO_seg<2>      |   15.595|
+PI_sel<1>      |PO_seg<3>      |   13.586|
+PI_sel<1>      |PO_seg<4>      |   13.751|
+PI_sel<1>      |PO_seg<5>      |   15.106|
+PI_sel<1>      |PO_seg<6>      |   14.845|
+PI_sel<1>      |PO_seg<7>      |   14.162|
+PI_sel<2>      |PO_seg<0>      |   15.907|
+PI_sel<2>      |PO_seg<1>      |   16.166|
+PI_sel<2>      |PO_seg<2>      |   16.467|
+PI_sel<2>      |PO_seg<3>      |   14.458|
+PI_sel<2>      |PO_seg<4>      |   14.623|
+PI_sel<2>      |PO_seg<5>      |   15.978|
+PI_sel<2>      |PO_seg<6>      |   15.717|
+PI_sel<2>      |PO_seg<7>      |   15.034|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Apr 15 15:58:46 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4504 MB
+
+
+

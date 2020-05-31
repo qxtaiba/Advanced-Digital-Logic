@@ -1,0 +1,3 @@
+vhdl work "single_number.vhd"
+vhdl work "ALU.vhd"
+vhdl work "ALU_display.vhd"

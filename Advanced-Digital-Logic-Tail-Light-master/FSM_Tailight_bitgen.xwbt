@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Y:\Desktop\FSM_Tailight\FSM_Tailight.ncd
+OUTFILE=Y:\Desktop\FSM_Tailight\FSM_Tailight.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=Y:\Desktop\FSM_Tailight
+LICENSE=WebPack
+USER_INFO=209294022_0_0_171

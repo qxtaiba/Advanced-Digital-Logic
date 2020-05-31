@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "T:/FSM_Tailight/FSM_Tailight_TB_isim_beh.exe" -prj "T:/FSM_Tailight/FSM_Tailight_TB_beh.prj" "work.FSM_Tailight_TB" 

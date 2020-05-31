@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="T:/cgz215/TrafficController/Trafficlight_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="trafficlight_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/trafficlight_tb/ts" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ts</obj_property>
+      <obj_property name="ObjectShortName">ts</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trafficlight_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trafficlight_tb/btn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn</obj_property>
+      <obj_property name="ObjectShortName">btn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trafficlight_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trafficlight_tb/ml" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ml[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ml[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trafficlight_tb/sl" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sl[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trafficlight_tb/wl" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wl</obj_property>
+      <obj_property name="ObjectShortName">wl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trafficlight_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trafficlight_tb/uut/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+</wave_config>

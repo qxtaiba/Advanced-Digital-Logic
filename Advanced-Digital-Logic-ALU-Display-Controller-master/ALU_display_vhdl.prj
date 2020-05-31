@@ -1,0 +1,3 @@
+vhdl work "T:\ALU_Display\single_number.vhd"
+vhdl work "T:\ALU_Display\ALU.vhd"
+vhdl work "T:\ALU_Display\ALU_display.vhd"

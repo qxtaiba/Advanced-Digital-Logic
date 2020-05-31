@@ -1,0 +1,2 @@
+vhdl work "TrafficLightController.vhd"
+vhdl work "Trafficlight_tb.vhd"
